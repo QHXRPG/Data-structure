@@ -22,3 +22,7 @@ void SLPushFront(SL *psl, SLDatatype x);
 void SLPopBack(SL *psl);
 void SLPopFront(SL *psl);
 void SLPrint(SL *psl);
+void SLInsert(SL *psl, int pos, SLDatatype x);
+int SLFind(SL *psl, SLDatatype x);
+void SLErase(SL*psl, int pos);
+void SLModify(SL *psl, int pos, SLDatatype x);

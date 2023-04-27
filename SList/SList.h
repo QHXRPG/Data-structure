@@ -17,3 +17,13 @@ typedef struct SListNode
 
 void SLTPrint(SLTNode *phead);
 void SLTPushFront(SLTNode **pphead, SLTDataType x);
+void SLTPushBack(SLTNode **pphead, SLTDataType x);
+void SLTPopBack(SLTNode **pphead);
+void SLTPopFront(SLTNode **pphead);
+SLTNode *SLTFind(SLTNode *phead, SLTDataType x);
+void SLTInsert(SLTNode **pphead, SLTNode *pos, SLTDataType x);
+void SLTInsertAfter(SLTNode *pos, SLTDataType x);
+void SLTErase(SLTNode  **pphead, SLTNode *pos);
+void SLTEraseAfter(SLTNode *pos);
+
+SLTNode *mergeTwoList(SLTNode *list1, SLTNode *list2);
