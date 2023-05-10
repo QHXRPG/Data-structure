@@ -8,6 +8,7 @@
 #endif //DATA_STRUCTURE_SLIST_H
 
 #include "stdio.h"
+#include "stdbool.h"
 typedef int SLTDataType;
 typedef struct SListNode
 {
@@ -27,3 +28,12 @@ void SLTErase(SLTNode  **pphead, SLTNode *pos);
 void SLTEraseAfter(SLTNode *pos);
 
 SLTNode *mergeTwoList(SLTNode *list1, SLTNode *list2);
+SLTNode *SLTreversal(SLTNode *head);
+SLTNode *SLTreversal_headpush(SLTNode *head);
+SLTDataType SLTThe_kth_penultimate_node(SLTNode *head, int k);
+SLTNode *SLT_segmentation(SLTNode *head, int x);
+SLTNode *SLT_middleNode(SLTNode *head);
+bool SLT_Palindrome(SLTNode *head);
+SLTNode *FindSLT_Intersection(SLTNode *headA, SLTNode *headB);
+bool is_SLT_Ring(SLTNode *head);
+SLTNode *SLT_Entrypoint(SLTNode *head);

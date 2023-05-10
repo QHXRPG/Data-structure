@@ -70,6 +70,12 @@ build CMakeFiles/Data_structure.dir/SList/SList.c.o: C_COMPILER__Data_structure_
   OBJECT_DIR = CMakeFiles/Data_structure.dir
   OBJECT_FILE_DIR = CMakeFiles/Data_structure.dir/SList
 
+build CMakeFiles/Data_structure.dir/BList/BList.c.o: C_COMPILER__Data_structure_Debug /Users/qiuhaoxuan/CLionProjects/Data_structure/BList/BList.c || cmake_object_order_depends_target_Data_structure
+  DEP_FILE = CMakeFiles/Data_structure.dir/BList/BList.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Data_structure.dir
+  OBJECT_FILE_DIR = CMakeFiles/Data_structure.dir/BList
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Data_structure
@@ -78,7 +84,7 @@ build CMakeFiles/Data_structure.dir/SList/SList.c.o: C_COMPILER__Data_structure_
 #############################################
 # Link the executable Data_structure
 
-build Data_structure: C_EXECUTABLE_LINKER__Data_structure_Debug CMakeFiles/Data_structure.dir/main.c.o CMakeFiles/Data_structure.dir/SeqList/SeqList.c.o CMakeFiles/Data_structure.dir/homework/1.c.o CMakeFiles/Data_structure.dir/SList/SList.c.o
+build Data_structure: C_EXECUTABLE_LINKER__Data_structure_Debug CMakeFiles/Data_structure.dir/main.c.o CMakeFiles/Data_structure.dir/SeqList/SeqList.c.o CMakeFiles/Data_structure.dir/homework/1.c.o CMakeFiles/Data_structure.dir/SList/SList.c.o CMakeFiles/Data_structure.dir/BList/BList.c.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
   OBJECT_DIR = CMakeFiles/Data_structure.dir
   POST_BUILD = :
